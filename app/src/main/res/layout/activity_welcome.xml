@@ -49,5 +49,6 @@
         android:layout_height="53dp"
         android:text="CREATE PORTFOLIO"
         tools:layout_editor_absoluteX="0dp"
+        android:onClick="createPortfolio"
         tools:layout_editor_absoluteY="608dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
