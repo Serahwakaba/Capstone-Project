@@ -17,8 +17,8 @@
         android:text="Create Portfolio item"
         android:textColor="@color/white"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="70dp" />
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="48dp" />
 
     <TextView
         android:id="@+id/tradepair"

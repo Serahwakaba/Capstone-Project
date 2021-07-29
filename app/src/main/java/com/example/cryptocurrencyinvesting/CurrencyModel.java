@@ -1,16 +1,28 @@
 package com.example.cryptocurrencyinvesting;
 
 public class CurrencyModel {
-    private String bitcoin,btc,price,volume,percentage,market;
 
-    public CurrencyModel(String bitcoin, String btc, String price, String volume, String percentage, String market) {
+    private String  bitcoin;
+    private String btc;
+    private String price;
+    private String volume;
+    private String percentage;
+    private String market;
+    private String bit;
+
+
+    public CurrencyModel(String bitcoin, String btc, String price, String volume, String percentage, String market, String bit) {
         this.bitcoin = bitcoin;
         this.btc = btc;
         this.price = price;
         this.volume = volume;
         this.percentage = percentage;
         this.market = market;
+        this.bit = bit;
     }
+
+
+
 
 
     public String getBitcoin() {
@@ -59,6 +71,14 @@ public class CurrencyModel {
 
     public void setMarket(String market) {
         this.market = market;
+    }
+
+    public String getBit() {
+        return bit;
+    }
+
+    public void setBit(String bit) {
+        this.bit = bit;
     }
 
 
