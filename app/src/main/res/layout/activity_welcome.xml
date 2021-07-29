@@ -38,7 +38,6 @@
     <ImageView
         android:layout_width="412dp"
         android:layout_height="336dp"
-        android:contentDescription="@string/my_image_description"
         android:src="@drawable/portfolio"
         tools:layout_editor_absoluteX="-1dp"
         tools:layout_editor_absoluteY="166dp" />
