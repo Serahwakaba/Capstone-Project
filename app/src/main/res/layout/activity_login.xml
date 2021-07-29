@@ -103,6 +103,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Save"
+        android:onClick="save"
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="649dp" />
 
